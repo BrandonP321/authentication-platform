@@ -5,6 +5,22 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@auth-plat/web@workspace:packages/web":
+  version: 0.0.0-use.local
+  resolution: "@auth-plat/web@workspace:packages/web"
+  dependencies:
+    "@types/node": 18.11.9
+    "@types/react": 18.0.25
+    "@types/react-dom": 18.0.8
+    eslint: 8.27.0
+    eslint-config-next: 13.0.2
+    next: 13.0.2
+    react: 18.2.0
+    react-dom: 18.2.0
+    typescript: 4.8.4
+  languageName: unknown
+  linkType: soft
+
 "@babel/runtime-corejs3@npm:^7.10.2":
   version: 7.20.1
   resolution: "@babel/runtime-corejs3@npm:7.20.1"
@@ -40,22 +56,6 @@ __metadata:
   checksum: f03e9d6727efd3e0719da2051ea80c0c73d20e28c171121527dbb868cd34232ca9c1d0525a66e517a404afea26624b1e47895b6a92474678418c2f50c9566694
   languageName: node
   linkType: hard
-
-"@fitness-tracker/web@workspace:packages/web":
-  version: 0.0.0-use.local
-  resolution: "@fitness-tracker/web@workspace:packages/web"
-  dependencies:
-    "@types/node": 18.11.9
-    "@types/react": 18.0.25
-    "@types/react-dom": 18.0.8
-    eslint: 8.27.0
-    eslint-config-next: 13.0.2
-    next: 13.0.2
-    react: 18.2.0
-    react-dom: 18.2.0
-    typescript: 4.8.4
-  languageName: unknown
-  linkType: soft
 
 "@humanwhocodes/config-array@npm:^0.11.6":
   version: 0.11.7
@@ -455,6 +455,14 @@ __metadata:
   checksum: a26dcc2182ffee111cad7c471759b0bda22d3b7ebacf27c348b22c55f16896b18ab0a4d03b85b4020dce7f3e634b8f00b593888f622915096ea1927fa51866c4
   languageName: node
   linkType: hard
+
+"auth-plat@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "auth-plat@workspace:."
+  dependencies:
+    concurrently: ^7.4.0
+  languageName: unknown
+  linkType: soft
 
 "axe-core@npm:^4.4.3":
   version: 4.5.1
@@ -1121,14 +1129,6 @@ __metadata:
   checksum: 07955e357348f34660bde7920783204ff5a26ac2cafcaa28bace494027158a97b9f56faaf2d89a6106211a8174db650dd9f503f9c0d526b1202d5554a00b9095
   languageName: node
   linkType: hard
-
-"fitness-tracker@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "fitness-tracker@workspace:."
-  dependencies:
-    concurrently: ^7.4.0
-  languageName: unknown
-  linkType: soft
 
 "flat-cache@npm:^3.0.4":
   version: 3.0.4

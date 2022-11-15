@@ -1,13 +1,13 @@
 {
-  "name": "fitness-tracker",
+  "name": "auth-plat",
   "packageManager": "yarn@3.2.4",
   "engines": {},
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "web": "yarn workspace @fitness-tracker/web",
-    "shared": "yarn workspace @fitness-tracker/shared",
+    "web": "yarn workspace @auth-plat/web",
+    "shared": "yarn workspace @auth-plat/shared",
     "web:start": "yarn concurrently --kill-others-on-fail -n \"WEB\" -c \"cyan\" \"yarn web dev\""
   },
   "devDependencies": {
