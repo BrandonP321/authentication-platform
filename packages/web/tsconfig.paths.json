@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+           "@Store": ["./global/store/store.ts"],
+           "@Slices/*": ["./global/store/slices/*"],
+           "@Hooks": ["./global/store/hooks.ts"],
+           "@Utils/*": ["./utils/*"],
+           "@Pages/*": ["./pages/*"],
+           "@API/*": ["./pages/api/*"],
+         }
+    }
+}
