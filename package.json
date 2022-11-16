@@ -8,7 +8,8 @@
   "scripts": {
     "web": "yarn workspace @auth-plat/web",
     "shared": "yarn workspace @auth-plat/shared",
-    "web:start": "yarn concurrently --kill-others-on-fail -n \"WEB\" -c \"cyan\" \"yarn web dev\""
+    "web:start": "yarn concurrently --kill-others-on-fail -n \"WEB\" -c \"cyan\" \"yarn web dev\"",
+    "postinstall": "yarn web build"
   },
   "devDependencies": {
     "concurrently": "^7.4.0"
