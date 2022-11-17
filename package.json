@@ -1,7 +1,9 @@
 {
   "name": "auth-plat",
   "packageManager": "yarn@3.2.4",
-  "engines": {},
+  "engines": {
+    "yarn": "3.2.4"
+  },
   "workspaces": [
     "packages/*"
   ],
